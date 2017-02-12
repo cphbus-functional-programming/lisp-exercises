@@ -19,6 +19,12 @@ nil
 ;; A list with more elements created with cons
 (cons 2 (cons 4 nil))
 
+;; Append a list to another with append
+(append (list 1 2) (list 3 4))
+
+;; Reverse a list with nreverse
+(nreverse (list 1 2 3))
+
 ;;
 ;; Exercises
 ;;
@@ -38,3 +44,7 @@ nil
 ;; Exercise 4
 ;; Append (1 2) to the list below
 (cons 3 (cons 4 nil))
+
+;; Exercise 5
+;; Reverse the list below
+(list 74 53 42)
