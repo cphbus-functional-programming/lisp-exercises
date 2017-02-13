@@ -4,8 +4,8 @@
 ;; Preamble: Syntax
 ;;
 
-;; Defining a variable
-(defvar a 10)
+;; Defining a mutable variable
+(setf a 10)
 
 ;; Using let-bindings
 ;; Contains two arguments
