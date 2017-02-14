@@ -28,6 +28,12 @@
 ;; Exercise
 ;; Your task is to implement the Gauss-Legendre algorithm for calculating pi
 ;; and extract 10.000 (ten thousand) digits
+;; The reason you need the rounding function above is because you're not
+;; interested in more than 10.000 digits. So every time you get a result with
+;; the Gauss-Legendre algorithm, you should round it to 10.000.
+;; You know you are done when your previously calculated pi value is equal to
+;; the next pi value you get -- then the precision within 10.000 digits cannot
+;; get any better.
 
 ;; Gauss-Legendre algorithm on Wikipedia
 ;; https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm
