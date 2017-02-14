@@ -25,4 +25,4 @@
 
 ;; Exercise 2
 ;; Write a let-binding where you define two variables: a = 10 and b = 20
-;; In the body of the let-binding you should print the sum ow
+;; In the body of the let-binding you should print the sum of a and b
