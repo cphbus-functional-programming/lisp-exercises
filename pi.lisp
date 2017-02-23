@@ -37,3 +37,13 @@
 
 ;; Gauss-Legendre algorithm on Wikipedia
 ;; https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_algorithm
+
+;; PLEASE NOTE that we need a biiiig number to be able to store 10.000 decimals.
+;; Just like in Java, Lisp has different number types, and if you get a floating
+;; point overflow, you need to coerce Lisp to use the very precise data type.
+;; So when you call your pi function for the first time, you should append 'L0'
+;; to your numbers. This will force Lisp to use the 'long-float datatype for
+;; the remainder of your program.
+;; So in short, your call to your pi function could look like this:
+;;   (myPi 1L0 (/ 1L0 (sqrt 2L0)) (/ 1L0 4L0) 1L0)
+;; 
