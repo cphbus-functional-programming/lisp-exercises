@@ -32,7 +32,6 @@ nil
 ;; Exercise 1
 ;; Create a list using 'cons'. The list should contain (42 69 613 nil)
 
-
 ;; Exercise 2
 ;; Take the first element of the list below
 (cons 8 (cons 1 nil))
@@ -40,6 +39,10 @@ nil
 ;; Exercise 3
 ;; Take the tail of the list below
 (cons 8 (cons 1 nil))
+
+;; Exercise 4
+;; Take the list below. If it turns out to be empty return 0. If it is not
+;; empty, return the 1.
 
 ;; Exercise 4
 ;; Append (1 2) to the list below

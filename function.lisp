@@ -27,6 +27,10 @@ nil
 ;; if condition then else
 (if (equal (list 1 2) (list 1 2)) T nil)
 
+;; Write to console
+(write "hello world")
+(write 5)
+
 ;;
 ;; Exercises
 ;;
